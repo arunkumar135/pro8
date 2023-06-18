@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successfully Registed</title>
+    <style>
+        .suc{
+            width:fit-content;
+            height:200px;
+            border:10px solid black;
+            border-color: red  blue greenyellow darkmagenta;
+            color: white;
+            margin: auto;
+            border-radius: 30px;
+            background-color: lightcoral;
+            margin-top: 250px;
+            animation: my 2s infinite;
+        }
+        @keyframes my{
+            0%{
+                border-color: red  blue greenyellow darkmagenta;
+            }
+            25%{
+                border-color: blue greenyellow darkmagenta red;
+            }
+            50%{
+                border-color:  greenyellow darkmagenta red  blue;
+            }
+            75%{
+                border-color:  darkmagenta red  blue greenyellow;
+            }
+            100%{
+                border-color:  red  blue greenyellow darkmagenta;
+            }
+        }
+        .h{
+            width:fit-content;
+            color: white;
+            background-color: blue;
+            margin-top: 180px;
+            margin-left: 550px;
+        }
+        .q{
+            width:fit-content;
+            color: white;
+            background-color: blue;
+            margin-left: 900px;
+            margin-top: -45px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .h:hover{
+             color: blue;
+             background-color: orangered;
+        }
+        .q:hover{
+            color: blue;
+             background-color: orangered;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="suc">
+        <h1 style="margin-top: 50px;">Your Account Has Successfully Created<br>Now Login to Take Quiz and Win</h1>
+    </div>
+    <div class="h">
+     <a href="index.html"><h2>Go Home</h2></a>
+    </div>
+    <div class="q">
+      <a href="login.html"><h2>Take Quiz</h2></a>
+    </div>
+</body>
+</html>

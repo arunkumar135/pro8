@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(https://t3.ftcdn.net/jpg/02/64/45/14/360_F_264451404_s4Dhf0mQZdg1N4Gx9RrwfnIIjBiZQ459.jpg); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+    <form action="success.html" onsubmit="return check(this);">
+        <div class="for">
+        <h1 style=" margin-left: 400px; font-size: 60px; color:yellow">Register Form</h1><br><br><br><br><br>
+        <label>Full Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required></label><br><br><br>
+        <label>EMAIL    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" required></label><br><br><br>
+        <label>Phone Number&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<input type="number" required></label><br><br><br>
+        <label>Date of Birth&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="dt" type="Date" required></label><br><br><br>
+        <label>Gender&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>prefer not to say</option>
+        </select>  </label><br><br><br>
+        <label>Education Qualified&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+            <option>School</option>
+            <option>Intermediate/Diploma</option>
+            <option>UG</option>
+            <option>PG</option>
+            </select>
+        </label><br><br><br>
+        <label>Username &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="imp" type="text" required> </label><br><br><br>
+        <label>Password &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input id="pa1" type="password"> </label><br><br><br>
+        <label>Confirm Password&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input id="pa2"  type="password"required> </label><br><br><br>
+        <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input class="cb" type="checkbox" required>Agree to terms and policy</label>
+     <br><br><br><br><br><br><br>
+    <button type="submit" onclick="check()">Create Account</button>
+</div>
+</form>
+<script src="design.js"></script>
+</body>
+</html>
